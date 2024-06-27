@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
+
+/* Reset de estilos para garantir consistência */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos gerais para o corpo do documento */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(to bottom, #ffffff, rgb(160, 220, 220));
+  line-height: 1.6;
+  text-align: left;
+}
+
+/* Estilos para o cabeçalho */
+.cabecalho {
+  height: 2.5rem;
+  width: 100%;
+  position: fixed;
+  text-align: left;
+  top: 0px;
+  left: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  z-index: 1000;
+  background: linear-gradient(to left, #beeaeb, #ffffff, rgb(160, 220, 220));
+  box-shadow: 10px 10px 10px rgba(5, 60, 66, 1);
+}
+
+.cabecalho .grupo {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.cabecalho h1 {
+  top: 0px;
+  left: 0px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(20, 80, 80);
+  margin-left: 10px;
+  text-align: left;
+  text-shadow: 5px 2px 5px rgba(0, 0, 0, 0.22);
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  justify-items: center;
+  gap: 10px;
+}
+
+.button {
+  width: 10%;
+  height: 1.8rem;
+  display: inline-block;
+  padding: 0px;
+  text-align: center;
+  margin-top: 0rem;
+  background-color: rgb(160, 220, 220);
+  color: rgb(20, 80, 80);
+  text-decoration: none;
+  border-radius: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: rgb(20, 80, 80);
+  color: rgb(255, 255, 255);
+  background: linear-gradient(to bottom,rgb(160, 220, 220), rgb(20, 80, 80), rgb(160, 220, 220));
+}
+
+/* Estilos para o conteúdo principal */
+.texto {
+  width: 80%;
+  max-width: 800px;
+  /* Ajustado para um valor máximo adequado */
+  margin: 100px auto;
+  /* Ajustado para centralizar verticalmente */
+  background-color: rgb(249, 253, 253);
+  color: #000;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.texto h1 {
+  font-size: 29px;
+  font-weight: bold;
+  color: rgb(20, 80, 80);
+}
+
+.texto .slogan {
+  font-size: 20px;
+  font-weight: bold;
+  color: #2ebaaf;
+  margin-bottom: 10px;
+}
+
+.texto p {
+  color: rgb(20, 80, 80);
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.texto ul {
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+
+.texto ul li {
+  margin-bottom: 5px;
+}
+
+
+/* Estilos para o rodapé */
+.footer {
+  background-color:rgb(20, 80, 80);
+  color: #fff;
+  padding: 10px 0;
+}
+
+.footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer p {
+  font-size: 14px;
+}
